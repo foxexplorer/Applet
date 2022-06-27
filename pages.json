@@ -1,0 +1,149 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ 
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			// index 页面
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/case/case",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/service/service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/payment/payment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地址管理",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/follow/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的关注",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/integral/integral",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分商城",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addTo/addTo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增地址",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	// 全局样式
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "app",
+		"navigationBarBackgroundColor": "#ffb5a6",
+		"backgroundColor": "#ffb5a6"
+	},
+		
+	"tabBar":{
+		"color":"#0b0b0b",
+		"selectedColor":"#ffb5a6",
+		"list":[
+			{
+			// 路径
+			"pagePath": "pages/index/index",
+			"iconPath": "static/首页.png",
+			"selectedIconPath": "static/首页 (1).png",
+			"text":"首页"
+		},
+		{
+			// 路径
+			"pagePath": "pages/list/list",
+			"iconPath": "static/商品.png",
+			"selectedIconPath": "static/商品 (1).png",
+			"text":"商品"
+		},
+		{
+			// 路径
+			"pagePath": "pages/case/case",
+			"iconPath": "static/购物车.png",
+			"selectedIconPath": "static/购物车 (1).png",
+			"text":"购物车"
+		},
+		{
+			// 路径
+			"pagePath": "pages/service/service",
+			"iconPath": "static/我的.png",
+			"selectedIconPath": "static/我的 (1).png",
+			"text":"我的"
+		}
+		]
+	}
+}

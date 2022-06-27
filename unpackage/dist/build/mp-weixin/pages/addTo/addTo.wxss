@@ -1,0 +1,1 @@
+.content{background-color:#ecf0f2;height:100vh}.body{width:100%;background-color:#fff;padding-bottom:30rpx}.body ._ul{list-style:none;margin:0;padding:0}.body ._ul ._li{display:flex;justify-content:space-between;height:70rpx;line-height:70rpx;padding:20rpx;border-bottom:1rpx solid #ccc}.body ._ul ._li input{width:75%;height:70rpx}.body .foot{width:90%;margin:30rpx auto}

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/case/case",
+    "pages/service/service",
+    "pages/goods/goods",
+    "pages/payment/payment",
+    "pages/order/order",
+    "pages/address/address",
+    "pages/follow/follow",
+    "pages/integral/integral",
+    "pages/addTo/addTo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "app",
+    "navigationBarBackgroundColor": "#ffb5a6",
+    "backgroundColor": "#ffb5a6"
+  },
+  "tabBar": {
+    "color": "#0b0b0b",
+    "selectedColor": "#ffb5a6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/首页.png",
+        "selectedIconPath": "static/首页 (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/商品.png",
+        "selectedIconPath": "static/商品 (1).png",
+        "text": "商品"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "iconPath": "static/购物车.png",
+        "selectedIconPath": "static/购物车 (1).png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "static/我的.png",
+        "selectedIconPath": "static/我的 (1).png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
